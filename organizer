@@ -1,0 +1,20 @@
+Condições do tempo possíveis:
+
+- Tempo limpo
+- Tempestade
+- Garoa
+- Chuva
+- Neve
+
+
+Horários que serão considerados para criar os gradientes:
+
+(apenas temporário)
+
+Para cada horário, um tipo de gradiente a depender do clima
+
+- Céu ao amanhecer
+- Céu de meio dia
+- Céu de tarde
+- Céu de fim de tarde
+- Noite
