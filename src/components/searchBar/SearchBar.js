@@ -11,7 +11,7 @@ export default class SearchBar extends Component {
     this.state = {
       search: '',
       results: [],
-      isLoading: false
+      isLoading: false,
     }
 
     this.handleSearchChange = this.handleSearchChange.bind(this);
@@ -73,6 +73,7 @@ export default class SearchBar extends Component {
           type="text" value={this.state.search}
           onChange={this.handleSearchChange}
           placeholder="Search for a city"
+          onFocus={(e) => e.target.placeholder = ""}
         ></input>
 
         {
